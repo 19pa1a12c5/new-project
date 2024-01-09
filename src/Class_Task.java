@@ -14,7 +14,7 @@ public class Class_Task {
 		driver.get("https://magento.softwaretestingboard.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("(//a[@href=\"https://magento.softwaretestingboard.com/customer/account/create/\"])[1]")).click();
-		driver.findElement(By.xpath("//input[@id=\"firstname\"]")).sendKeys("Surendra");
+		driver.findElement(By.xpath("//input[@id=\"firstname\"]")).sendKeys("charani");
 		driver.findElement(By.xpath("//input[@id=\"lastname\"]")).sendKeys("Valavala");
 		driver.findElement(By.xpath("//input[@id=\"email_address\"]")).sendKeys("surendra333@gmail.com");
 		driver.findElement(By.xpath("//input[@id=\"password\"]")).sendKeys("Surendra@123");
