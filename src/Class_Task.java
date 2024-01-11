@@ -20,7 +20,7 @@ public class Class_Task {
 		driver.findElement(By.xpath("//input[@id=\"password\"]")).sendKeys("Surendra@123");
 		driver.findElement(By.xpath("//input[@id=\"password-confirmation\"]")).sendKeys("Surendra@123");
 		driver.findElement(By.xpath("//button[@class=\"action submit primary\"]")).click();
-		system.out.println("Hai Friends...Bye Friends...")
+		System.out.println("Hai Friends...Bye Friends...");
 		
 		
 
